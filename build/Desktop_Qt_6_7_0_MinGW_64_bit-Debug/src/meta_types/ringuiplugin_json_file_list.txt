@@ -1,7 +1,0 @@
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_RingColor.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_RingDef.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_RingTextStyle.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_RingTheme.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_RingTools.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/../EWIEGA46WW/moc_ringaccentcolor.cpp.json
-C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/ringuiplugin_RingUIPlugin.moc.json

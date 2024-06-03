@@ -8,14 +8,14 @@ option(RINGUI_BUILD_EXAMPLES "Build RingUI demo applications." OFF)
 # 设定变量控制是否将RINGUI编译为静态库，这里设置为否
 set(RINGUI_BUILD_STATIC_LIB OFF)
 
+set(RINGUI_BUILD_EXAMPLES ON)
 
 # 查找QT库机器组件
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
-
 # 添加原目录
-add_subdirectory(src)
+# add_subdirectory(src)
 # 添加例子目录
 if(RINGUI_BUILD_EXAMPLES)
     add_subdirectory(example)

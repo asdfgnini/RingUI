@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_example_FILE C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/example/example.exe)
+set(__QT_DEPLOY_TARGET_example_RUNTIME_DLLS D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6Quickd.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6QmlModelsd.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6Qmld.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6Networkd.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6OpenGLd.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6Guid.dll;D:/ruanjian/Qt/6.7.0/msvc2019_64/bin/Qt6Cored.dll)

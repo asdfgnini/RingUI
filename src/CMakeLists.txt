@@ -45,9 +45,9 @@ foreach (filepath ${CPP_FILES})
 endforeach (filepath)
 
 # 测试清楚路径之后的文件是否正确
-foreach(file ${sources_files})
-    message("file:${file}")
-endforeach(file)
+# foreach(sources_files ${sources_files})
+#     message("sources_files:${sources_files}")
+# endforeach(sources_files)
 
 # 判断当前QT版本是否大于6.2
 if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
@@ -65,6 +65,15 @@ if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
         endif ()
     endforeach (filepath)
 
+    #遍历所有资源文件
+    file(GLOB_RECURSE RES_PATHS *.png *.jpg *.svg *.ico *.ttf *.webp *.js *.qm)
+    foreach (filepath ${RES_PATHS})
+        if (${filepath} MATCHES "QML/")
+            string(REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/" "" filename ${filepath})
+            list(APPEND resource_files ${filename})
+        endif ()
+    endforeach (filepath)
+
 
     #修改资源文件导出路径
     foreach (filepath IN LISTS qml_files resource_files)
@@ -73,9 +82,9 @@ if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
         set_source_files_properties(${filepath} PROPERTIES QT_RESOURCE_ALIAS ${filename})
     endforeach ()
 
-    # foreach(file ${qml_files})
-    #     message("file:${file}")
-    # endforeach(file)
+    foreach(resource_files ${resource_files})
+        message("resource_files:${resource_files}")
+    endforeach(resource_files)
 endif()
 
 # 设置编译类型
@@ -94,7 +103,6 @@ else ()
 endif ()
 
 
-
 # 判断当前QT版本是否大于6.2
 if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
     #如果是Qt6.2版本以上，则使用qt_add_library，qt_add_qml_module函数添加资源文件
@@ -111,13 +119,12 @@ if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
             TYPEINFO "plugins.qmltypes"
             SOURCES ${sources_files}
             QML_FILES ${qml_files}
+            RESOURCES ${resource_files}
             RESOURCE_PREFIX "/qt/qml"
 
     )
 endif()
 
-
-#去掉mingw生成的动态库libxxx前缀lib，不去掉前缀会导致 module "FluentUI" plugin "fluentuiplugin" not found
 if (MINGW)
     set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 endif ()

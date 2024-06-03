@@ -11,6 +11,7 @@ qt_add_executable(example
     src/main.cpp
 )
 
+
 qt_add_qml_module(example
     URI example
     VERSION 1.0
@@ -20,7 +21,7 @@ qt_add_qml_module(example
 
 target_link_libraries(example
     PRIVATE Qt6::Quick
-    ringuiplugin
+    # ringuiplugin
 )
 
 

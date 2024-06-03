@@ -1,4 +1,0 @@
-module ring
-typeinfo example.qmltypes
-prefer :/ring/
-
