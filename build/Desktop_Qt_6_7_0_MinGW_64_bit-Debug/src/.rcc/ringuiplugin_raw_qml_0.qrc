@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/RingUI/">
+    <file alias="Controls/RingButton.qml">C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingButton.qml</file>
+    <file alias="Controls/RingControlBackground.qml">C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingControlBackground.qml</file>
+    <file alias="Controls/RingFocusRectangle.qml">C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingFocusRectangle.qml</file>
+    <file alias="Controls/RingText.qml">C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingText.qml</file>
+  </qresource>
+</RCC>
+

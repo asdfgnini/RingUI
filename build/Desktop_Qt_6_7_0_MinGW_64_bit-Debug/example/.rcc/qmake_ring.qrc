@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ring">
+    <file alias="qmldir">C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/ring/qmldir</file>
+  </qresource>
+</RCC>
+

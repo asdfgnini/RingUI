@@ -1,0 +1,10 @@
+-I
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example
+-I
+D:/ruanjian/Qt/6.7.0/mingw_64/./qml
+--resource
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmake_ring.qrc
+--resource
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/appring_raw_qml_0.qrc
+--module
+ring

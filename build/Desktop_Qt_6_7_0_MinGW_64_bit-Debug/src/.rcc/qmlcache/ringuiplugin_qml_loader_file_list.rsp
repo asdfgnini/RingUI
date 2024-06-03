@@ -1,0 +1,8 @@
+--resource
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc/qmake_RingUI.qrc
+--resource
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc/ringuiplugin_raw_qml_0.qrc
+/qt/qml/RingUI/Controls/RingButton.qml
+/qt/qml/RingUI/Controls/RingControlBackground.qml
+/qt/qml/RingUI/Controls/RingFocusRectangle.qml
+/qt/qml/RingUI/Controls/RingText.qml

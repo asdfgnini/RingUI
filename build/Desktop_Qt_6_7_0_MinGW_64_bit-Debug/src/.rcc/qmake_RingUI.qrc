@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/RingUI">
+    <file alias="qmldir">D:/ruanjian/Qt/6.7.0/mingw_64/qml/RingUI/qmldir</file>
+  </qresource>
+</RCC>
+

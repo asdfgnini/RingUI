@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "RingUIPlugin",
+            "object": true,
+            "qualifiedClassName": "RingUIPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ringuiplugin_RingUIPlugin.cpp",
+    "outputRevision": 68
+}
