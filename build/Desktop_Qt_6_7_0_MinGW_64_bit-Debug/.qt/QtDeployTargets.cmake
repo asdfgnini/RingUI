@@ -1,4 +1,4 @@
 set(__QT_DEPLOY_TARGET_ringuiplugin_FILE D:/ruanjian/Qt/6.7.0/mingw_64/qml/RingUI/ringuiplugin.dll)
 set(__QT_DEPLOY_TARGET_ringuiplugin_RUNTIME_DLLS D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Quick.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6QmlModels.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Qml.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Network.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6OpenGL.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)
-set(__QT_DEPLOY_TARGET_example_FILE C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example.exe)
+set(__QT_DEPLOY_TARGET_example_FILE C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example.exe)
 set(__QT_DEPLOY_TARGET_example_RUNTIME_DLLS D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Quick.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6QmlModels.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Qml.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Network.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6OpenGL.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;D:/ruanjian/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)

@@ -5,6 +5,7 @@
 #include "EWIEGA46WW/moc_RingDef.cpp"
 #include "EWIEGA46WW/moc_RingFrameless.cpp"
 #include "EWIEGA46WW/moc_RingIconDef.cpp"
+#include "EWIEGA46WW/moc_RingRectangle.cpp"
 #include "EWIEGA46WW/moc_RingTextStyle.cpp"
 #include "EWIEGA46WW/moc_RingTheme.cpp"
 #include "EWIEGA46WW/moc_RingTools.cpp"

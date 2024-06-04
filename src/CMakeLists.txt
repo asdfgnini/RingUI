@@ -125,15 +125,16 @@ if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
     )
 endif()
 
+
 if (MINGW)
     set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 endif ()
+
 
 #MSVC Debug 添加后缀d，与Qt插件风格保持一致
 if (MSVC)
     set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_POSTFIX "d")
 endif ()
-
 
 #链接库
 target_link_libraries(${PROJECT_NAME} PUBLIC

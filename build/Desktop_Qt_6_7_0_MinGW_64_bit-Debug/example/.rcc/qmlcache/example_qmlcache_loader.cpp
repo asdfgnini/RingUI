@@ -12,6 +12,20 @@ namespace _example_qml_main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _example_qml_StandardWindow_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _example_qml_SingleTaskWindow_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +41,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/example/qml/main.qml"), &QmlCacheGeneratedCode::_example_qml_main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/example/qml/StandardWindow.qml"), &QmlCacheGeneratedCode::_example_qml_StandardWindow_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/example/qml/SingleTaskWindow.qml"), &QmlCacheGeneratedCode::_example_qml_SingleTaskWindow_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

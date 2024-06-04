@@ -9,7 +9,7 @@ endif()
 
 _qt_internal_deploy_qml_imports_for_target(
     ${__qt_opts}
-    IMPORTS_FILE "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.qt_plugins/Qt6_QmlPlugins_Imports_example.cmake"
+    IMPORTS_FILE "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.qt_plugins/Qt6_QmlPlugins_Imports_example.cmake"
     PLUGINS_FOUND __qt_internal_plugins_found
     QML_DIR     "${arg_QML_DIR}"
     PLUGINS_DIR "${arg_PLUGINS_DIR}"

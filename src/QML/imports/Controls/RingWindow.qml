@@ -99,7 +99,6 @@ Window {
         topmost: window.stayTop
         disabled: RingApp.useSystemAppBar
         Component.onCompleted: {
-            frameless.setHitTestVisible(appBar.layoutMacosButtons)
             frameless.setHitTestVisible(appBar.layoutStandardbuttons)
         }
         Component.onDestruction: {
@@ -274,7 +273,6 @@ Window {
         id:loader_loading
         anchors.fill: parent
     }
-
     RingInfoBar{
         id:info_bar
         root: window

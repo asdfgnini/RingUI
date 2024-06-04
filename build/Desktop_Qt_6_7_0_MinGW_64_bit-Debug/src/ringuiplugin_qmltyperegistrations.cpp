@@ -13,6 +13,7 @@
 #include <RingDef.h>
 #include <RingFrameless.h>
 #include <RingIconDef.h>
+#include <RingRectangle.h>
 #include <RingTextStyle.h>
 #include <RingTheme.h>
 #include <RingTools.h>
@@ -58,6 +59,7 @@ Q_QMLTYPE_EXPORT void qml_register_types_RingUI()
         QMetaType(&metaType).id();
     }
     qmlRegisterNamespaceAndRevisions(&RingPageType::staticMetaObject, "RingUI", 1, nullptr, &RingPageType::staticMetaObject, nullptr);
+    qmlRegisterTypesAndRevisions<RingRectangle>("RingUI", 1);
     {
         Q_CONSTINIT static auto metaType = QQmlPrivate::metaTypeForNamespace(
             [](const QtPrivate::QMetaTypeInterface *) {return &RingSheetType::staticMetaObject;},

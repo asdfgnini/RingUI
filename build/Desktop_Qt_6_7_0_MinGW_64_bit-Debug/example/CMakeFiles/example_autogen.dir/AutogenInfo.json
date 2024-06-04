@@ -1,13 +1,13 @@
 {
-	"BUILD_DIR" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22231/Desktop/RIngUI/example",
+	"BUILD_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22231/Desktop/RingUI/example",
 	"CMAKE_EXECUTABLE" : "D:/ruanjian/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/22231/Desktop/RIngUI/example/CMakeLists.txt",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/22231/Desktop/RingUI/example/CMakeLists.txt",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -891,15 +891,24 @@
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.qt_plugins/Qt6_QmlPlugins_Imports_example.cmake"
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.qt_plugins/Qt6_QmlPlugins_Imports_example.cmake",
+		"C:/Users/22231/Desktop/RingUI/example/example.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/22231/Desktop/RIngUI",
-	"DEP_FILE" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22231/Desktop/RingUI",
+	"DEP_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "example_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/22231/Desktop/RingUI/example/src/CircularReveal.h",
+			"Mu",
+			"UVLADIE3JM/moc_CircularReveal.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -928,7 +937,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/22231/Desktop/RIngUI/example",
+		"C:/Users/22231/Desktop/RingUI/example",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQml/6.7.0",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQml/6.7.0/QtQml",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/6.7.0",
@@ -967,32 +976,40 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"D:/ruanjian/Qt/Tools/mingw1120_64/bin/g++.exe",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
 		"D:/ruanjian/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/main_qml.cpp",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qmlcache_loader.cpp",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_example_raw_qml_0.cpp",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_qmake_example.cpp",
-		"C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_qmltyperegistrations.cpp"
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/SingleTaskWindow_qml.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/StandardWindow_qml.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/main_qml.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qmlcache_loader.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_example_raw_qml_0.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_qmake_example.cpp",
+		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/ruanjian/Qt/6.7.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/22231/Desktop/RIngUI/example/src/main.cpp", "Mu", null ]
+		[
+			"C:/Users/22231/Desktop/RingUI/example/src/CircularReveal.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Users/22231/Desktop/RingUI/example/src/main.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

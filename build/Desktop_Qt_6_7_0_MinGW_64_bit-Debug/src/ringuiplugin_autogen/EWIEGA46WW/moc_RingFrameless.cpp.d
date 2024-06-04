@@ -1,6 +1,6 @@
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/EWIEGA46WW/moc_RingFrameless.cpp: C:/Users/22231/Desktop/RIngUI/src/RingFrameless.h \
-  C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
-  C:/Users/22231/Desktop/RIngUI/src/RingRegProperty.h \
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/EWIEGA46WW/moc_RingFrameless.cpp: C:/Users/22231/Desktop/RingUI/src/RingFrameless.h \
+  C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
+  C:/Users/22231/Desktop/RingUI/src/RingRegProperty.h \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/QList \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/QObject \

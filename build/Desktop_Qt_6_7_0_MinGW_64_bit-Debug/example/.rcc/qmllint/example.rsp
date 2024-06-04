@@ -1,10 +1,12 @@
 --bare
 -I
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example
 -I
 D:/ruanjian/Qt/6.7.0/mingw_64/./qml
 --resource
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmake_example.qrc
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmake_example.qrc
 --resource
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/example_raw_qml_0.qrc
-C:/Users/22231/Desktop/RIngUI/example/qml/main.qml
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/example_raw_qml_0.qrc
+C:/Users/22231/Desktop/RingUI/example/qml/main.qml
+C:/Users/22231/Desktop/RingUI/example/qml/StandardWindow.qml
+C:/Users/22231/Desktop/RingUI/example/qml/SingleTaskWindow.qml

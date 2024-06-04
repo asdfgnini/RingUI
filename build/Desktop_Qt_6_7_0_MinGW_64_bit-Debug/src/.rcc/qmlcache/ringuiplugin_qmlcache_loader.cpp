@@ -26,7 +26,42 @@ namespace _qt_qml_RingUI_Controls_RingButton_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_RingUI_Controls_RingContentDialog_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingControl_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_RingUI_Controls_RingControlBackground_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingDivider_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingEvent_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingFilledButton_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -110,7 +145,21 @@ namespace _qt_qml_RingUI_Controls_RingMenuSeparator_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_RingUI_Controls_RingNavigationView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_RingUI_Controls_RingObject_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingPopup_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -125,6 +174,13 @@ namespace _qt_qml_RingUI_Controls_RingProgressRing_qml {
     };
 }
 namespace _qt_qml_RingUI_Controls_RingRouter_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_RingUI_Controls_RingScrollBar_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -176,7 +232,12 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingAcrylic.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingAcrylic_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingAppBar.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingAppBar_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingButton.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingContentDialog.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingContentDialog_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingControl.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingControl_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingControlBackground.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingControlBackground_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingDivider.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingDivider_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingEvent.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingEvent_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingFilledButton.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingFilledButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingFocusRectangle.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingFocusRectangle_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingIcon.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingIcon_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingIconButton.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingIconButton_qml::unit);
@@ -188,9 +249,12 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingMenuBarItem.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingMenuBarItem_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingMenuItem.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingMenuItem_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingMenuSeparator.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingMenuSeparator_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingNavigationView.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingNavigationView_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingObject.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingObject_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingPopup_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingProgressRing.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingProgressRing_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingRouter.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingRouter_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingScrollBar.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingScrollBar_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingShadow.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingShadow_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingText.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingText_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/RingUI/Controls/RingTooltip.qml"), &QmlCacheGeneratedCode::_qt_qml_RingUI_Controls_RingTooltip_qml::unit);

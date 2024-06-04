@@ -1,5 +1,5 @@
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/ringuiplugin_RingUIPlugin.moc: C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_RingUIPlugin.cpp \
-  C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/include/ringuiplugin_RingUIPlugin.moc: C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_RingUIPlugin.cpp \
+  C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/QUrl \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/q20algorithm.h \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \

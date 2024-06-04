@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/example">
+        <file>res/image/banner_1.jpg</file>
+        <file>res/image/banner_2.jpg</file>
+        <file>res/image/banner_3.jpg</file>
+        <file>res/image/bg_home_header.png</file>
+        <file>res/image/bg_scenic.jpg</file>
+        <file>res/image/favicon.ico</file>
+        <file>res/image/ic_crash.png</file>
+        <file>res/image/ic_home_github.png</file>
+        <file>res/image/image_1.jpg</file>
+        <file>res/image/logo_openai.png</file>
+        <file>res/image/qrcode_wx.jpg</file>
+        <file>res/image/qrcode_zfb.jpg</file>
+        <file>qml/main.qml</file>
+        <file>qml/SingleTaskWindow.qml</file>
+        <file>qml/StandardWindow.qml</file>
+    </qresource>
+</RCC>

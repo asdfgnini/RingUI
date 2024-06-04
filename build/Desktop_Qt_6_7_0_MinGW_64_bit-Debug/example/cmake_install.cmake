@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/22231/Desktop/RIngUI/example
+# Install script for directory: C:/Users/22231/Desktop/RingUI/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

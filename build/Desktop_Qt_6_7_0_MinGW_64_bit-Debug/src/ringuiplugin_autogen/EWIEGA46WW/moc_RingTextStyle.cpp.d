@@ -1,7 +1,7 @@
-C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/EWIEGA46WW/moc_RingTextStyle.cpp: C:/Users/22231/Desktop/RIngUI/src/RingTextStyle.h \
-  C:/Users/22231/Desktop/RIngUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
-  C:/Users/22231/Desktop/RIngUI/src/RingRegProperty.h \
-  C:/Users/22231/Desktop/RIngUI/src/RingSingle.h \
+C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/EWIEGA46WW/moc_RingTextStyle.cpp: C:/Users/22231/Desktop/RingUI/src/RingTextStyle.h \
+  C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/ringuiplugin_autogen/moc_predefs.h \
+  C:/Users/22231/Desktop/RingUI/src/RingRegProperty.h \
+  C:/Users/22231/Desktop/RingUI/src/RingSingle.h \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \

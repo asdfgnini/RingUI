@@ -134,7 +134,7 @@ Rectangle{
             iconSource: RingTheme.dark ? RingIcons.Brightness : RingIcons.QuietHours
             Layout.alignment: Qt.AlignVCenter
             iconSize: 15
-            visible: !showDark
+            visible: showDark
             text: RingTheme.dark ? control.lightText : control.darkText
             radius: 0
             iconColor:control.textColor

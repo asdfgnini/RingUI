@@ -1,4 +1,6 @@
 module example
 typeinfo example.qmltypes
 prefer :/example/
+StandardWindow 1.0 qml/StandardWindow.qml
+SingleTaskWindow 1.0 qml/SingleTaskWindow.qml
 

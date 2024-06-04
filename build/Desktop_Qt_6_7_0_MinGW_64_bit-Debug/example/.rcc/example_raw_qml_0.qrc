@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/example/">
-    <file alias="qml/main.qml">C:/Users/22231/Desktop/RIngUI/example/qml/main.qml</file>
+    <file alias="qml/main.qml">C:/Users/22231/Desktop/RingUI/example/qml/main.qml</file>
+    <file alias="qml/StandardWindow.qml">C:/Users/22231/Desktop/RingUI/example/qml/StandardWindow.qml</file>
+    <file alias="qml/SingleTaskWindow.qml">C:/Users/22231/Desktop/RingUI/example/qml/SingleTaskWindow.qml</file>
+    <file alias="example.qrc">C:/Users/22231/Desktop/RingUI/example/example.qrc</file>
   </qresource>
 </RCC>
 

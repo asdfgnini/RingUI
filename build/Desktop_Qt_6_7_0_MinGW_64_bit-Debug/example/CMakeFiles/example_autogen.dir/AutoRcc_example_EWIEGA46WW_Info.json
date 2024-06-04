@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22231/Desktop/RingUI/example",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22231/Desktop/RingUI",
+	"INCLUDE_DIR" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/22231/Desktop/RingUI/example/qml/StandardWindow.qml",
+		"C:/Users/22231/Desktop/RingUI/example/qml/main.qml",
+		"C:/Users/22231/Desktop/RingUI/example/qml/SingleTaskWindow.qml",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/banner_2.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/banner_3.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/qrcode_zfb.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/bg_home_header.png",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/favicon.ico",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/ic_home_github.png",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/image_1.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/qrcode_wx.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/banner_1.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/ic_crash.png",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/bg_scenic.jpg",
+		"C:/Users/22231/Desktop/RingUI/example/res/image/logo_openai.png"
+	],
+	"LOCK_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/AutoRcc_example_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "example" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_example.cpp",
+	"RCC_EXECUTABLE" : "D:/ruanjian/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/CMakeFiles/example_autogen.dir/AutoRcc_example_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/22231/Desktop/RingUI/example/example.qrc",
+	"VERBOSITY" : 0
+}
