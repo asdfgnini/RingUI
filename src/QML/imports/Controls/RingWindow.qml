@@ -49,7 +49,7 @@ Window {
     property int resizeBorderWidth: 1
     property var closeListener: function(event){
         if(autoDestroy){
-            RingRouter.removeWindow(window)
+            rout_window.removeWindow(window)
         }else{
             window.visibility = Window.Hidden
             event.accepted = false
@@ -62,7 +62,7 @@ Window {
     id:window
     color:"transparent"
     Component.onCompleted: {
-        RingRouter.addWindow(window)
+        rout_window.addWindow(window)
         useSystemAppBar = RingApp.useSystemAppBar
         if(!useSystemAppBar && autoCenter){
             moveWindowToDesktopCenter()
@@ -235,6 +235,10 @@ Window {
             border.color: window.resizeBorderColor
         }
     }
+    RingRouter{
+        id:rout_window
+    }
+
     RingLoader{
         anchors.fill: parent
         sourceComponent: background
@@ -270,6 +274,7 @@ Window {
         id:loader_loading
         anchors.fill: parent
     }
+
     RingInfoBar{
         id:info_bar
         root: window

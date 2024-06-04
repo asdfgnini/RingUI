@@ -16,7 +16,7 @@ class RingApp : public QObject
     Q_PROPERTY_AUTO(bool, useSystemAppBar)
     Q_PROPERTY_AUTO(QString, windowIcon)
     Q_PROPERTY_AUTO(QLocale, locale)
-    QML_NAMED_ELEMENT(FluApp)
+    QML_NAMED_ELEMENT(RingApp)
     QML_SINGLETON
 
 private:

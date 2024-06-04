@@ -75,7 +75,7 @@ if (QT_VERSION VERSION_GREATER_EQUAL "6.2")
     endforeach (filepath)
 
 
-    #修改资源文件导出路径
+    #修改资源文件导出路径，将文件copy到安装目录下的路径
     foreach (filepath IN LISTS qml_files resource_files)
         string(REPLACE "QML/imports/" "" filename ${filepath})
         # 使用filename的名字替换filepath,在程序中使用filename 就等同于使用filepath一样
@@ -133,6 +133,7 @@ endif ()
 if (MSVC)
     set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_POSTFIX "d")
 endif ()
+
 
 #链接库
 target_link_libraries(${PROJECT_NAME} PUBLIC

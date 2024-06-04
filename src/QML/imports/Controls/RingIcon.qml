@@ -11,7 +11,7 @@ Text {
     //定义图标字体库的显示大小
     property int iconSize: 20
     //定义图标显示的颜色，与主题模式相反显示
-    property color iconColor:  FluTheme.dark ? "#FFFFFF" : "#000000"
+    property color iconColor:  RingTheme.dark ? "#FFFFFF" : "#000000"
     //定义显示的字体样式
     font.family:font_loader.name
     font.pixelSize: iconSize

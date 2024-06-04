@@ -15,7 +15,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 # 添加原目录
-# add_subdirectory(src)
+add_subdirectory(src)
 # 添加例子目录
 if(RINGUI_BUILD_EXAMPLES)
     add_subdirectory(example)
