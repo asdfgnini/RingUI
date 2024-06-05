@@ -78,6 +78,7 @@ Rectangle{
         id:d
         property var hitTestList: []
         property bool hoverMaxBtn: false
+        //存储了当前的窗口对象
         property var win: Window.window
         property bool stayTop: {
             if(d.win instanceof RingWindow){
@@ -97,6 +98,7 @@ Rectangle{
         }
     }
     Row{
+        id:row_icon
         anchors{
             verticalCenter: parent.verticalCenter
             left: parent.left

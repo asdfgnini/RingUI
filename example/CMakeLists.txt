@@ -17,9 +17,6 @@ qt_add_executable(example
 qt_add_qml_module(example
     URI example
     VERSION 1.0
-    QML_FILES qml/main.qml
-    QML_FILES qml/StandardWindow.qml
-    QML_FILES qml/SingleTaskWindow.qml
     SOURCES src/CircularReveal.cpp src/CircularReveal.h
     RESOURCES example.qrc
 )
@@ -27,7 +24,6 @@ qt_add_qml_module(example
 
 target_link_libraries(example
     PRIVATE Qt6::Quick
-    # ringuiplugin
 )
 
 

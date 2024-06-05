@@ -49,7 +49,7 @@ Window {
     property int resizeBorderWidth: 1
     property var closeListener: function(event){
         if(autoDestroy){
-            rout_window.removeWindow(window)
+            RingRouter.removeWindow(window)
         }else{
             window.visibility = Window.Hidden
             event.accepted = false
@@ -62,7 +62,7 @@ Window {
     id:window
     color:"transparent"
     Component.onCompleted: {
-        rout_window.addWindow(window)
+        RingRouter.addWindow(window)
         useSystemAppBar = RingApp.useSystemAppBar
         if(!useSystemAppBar && autoCenter){
             moveWindowToDesktopCenter()
@@ -91,6 +91,8 @@ Window {
         target: window
         function onClosing(event){closeListener(event)}
     }
+
+    //为当前window添加无边框属性
     RingFrameless{
         id: frameless
         appbar: window.appBar
@@ -234,9 +236,7 @@ Window {
             border.color: window.resizeBorderColor
         }
     }
-    RingRouter{
-        id:rout_window
-    }
+
 
     RingLoader{
         anchors.fill: parent
@@ -257,6 +257,7 @@ Window {
         }
         sourceComponent: window.useSystemAppBar ? undefined : com_app_bar
     }
+    //app_bar和backbound的分割线
     Item{
         id:layout_content
         anchors{
@@ -306,8 +307,11 @@ Window {
         return info_bar.clearAllInfo()
     }
     function moveWindowToDesktopCenter(){
+        //获取当前鼠标所在屏幕
         screen = Qt.application.screens[RingTools.cursorScreenIndex()]
+        //获取窗口所在屏幕的可用几何信息
         var availableGeometry = RingTools.desktopAvailableGeometry(window)
+        //计算窗口居中位置并设置窗口几何信息
         window.setGeometry((availableGeometry.width-window.width)/2+Screen.virtualX,(availableGeometry.height-window.height)/2+Screen.virtualY,window.width,window.height)
     }
     function fixWindowSize(){

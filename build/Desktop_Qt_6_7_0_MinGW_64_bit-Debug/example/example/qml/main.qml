@@ -25,34 +25,28 @@ RingWindow {
         // closeClickListener: ()=>{dialog_close.open()}
         z:7
         icon:"qrc:/example/res/image/favicon.ico"
-        title: window.title
+        title:window.title
     }
-
     Component.onCompleted: {
         console.log("主页面启动")
     }
 
     Component.onDestruction: {
-        router_main.exit()
+        RingRouter.exit()
     }
 
-
-
-
+    //关闭窗口时的显示窗口
     RingContentDialog{
         id: dialog_close
         title: qsTr("Quit")
         message: qsTr("你好 Are you sure you want to exit the program?")
         negativeText: qsTr("Minimize")
         buttonFlags: RingContentDialogType.NegativeButton | RingContentDialogType.NeutralButton | RingContentDialogType.PositiveButton
-        onNegativeClicked: {
-            system_tray.showMessage(qsTr("Friendly Reminder"),qsTr("RingentUI is hidden from the tray, click on the tray to activate the window again"));
-            timer_window_hide_delay.restart()
-        }
+
         positiveText: qsTr("Quit")
         neutralText: qsTr("Cancel")
         onPositiveClicked:{
-            router_main.exit(0)
+            RingRouter.exit(0)
         }
     }
     Component{
@@ -70,10 +64,7 @@ RingWindow {
             }
         }
     }
-    RingRouter
-    {
-        id:router_main
-    }
+
     RingLoader{
         id:loader_reveal
         anchors.fill: parent
@@ -108,5 +99,10 @@ RingWindow {
             RingTheme.darkMode = RingThemeType.Dark
         }
     }
+
+    //以上完成基本窗口的绘制
+
+
+
 
 }

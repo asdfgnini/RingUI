@@ -5,28 +5,42 @@ import QtQuick.Controls.Basic
 import QtQuick.Layouts
 import RingUI
 
+//模仿安卓的导航控件
 Item {
+    //导航控件的logo,在主页面中作为窗口图标
     property url logo
+    //导航控件的标题，同时也作为整个主页面的标题
     property string title: ""
+    //定义一个QML对象列表，
     property RingObject items
+    //定义一个QML对象列表，
     property RingObject footerItems
+    //定义显示模式
     property int displayMode: RingNavigationViewType.Auto
+
     property Component autoSuggestBox
     property Component actionItem
     property int topPadding: 0
+    //定义页面存储方式
     property int pageMode: RingNavigationViewType.Stack
+    //定义菜单
     property RingMenu navItemRightMenu
     property RingMenu navItemExpanderRightMenu
     property int navCompactWidth: 50
     property int navTopMargin: 0
     property int cellHeight: 38
     property int cellWidth: 300
+    //定义是否隐藏标题栏
     property bool hideNavAppBar: false
+
     property alias buttonMenu: btn_menu
+    //定义窗口返回按键功能方法，可以外部自定义
     property alias buttonBack: btn_back
+    //定义窗口图标显示方法，可以外部自定义
     property alias imageLogo: image_logo
     signal logoClicked
     id:control
+
     Item{
         id:d
         property bool animDisabled:false
@@ -45,7 +59,7 @@ Item {
         function handleItems(){
             var _idx = 0
             var data = []
-            var comEmpty = Qt.createComponent("RingPaneItemEmpty.qml");
+            var comEmpty = Qt.createComponent("FluPaneItemEmpty.qml");
             if(items){
                 for(var i=0;i<items.children.length;i++){
                     var item = items.children[i]
@@ -176,7 +190,7 @@ Item {
             width: layout_list.width
             RingText{
                 text:model.title
-                font: RingTextStyle.BodyStrong
+                font: FluTextStyle.BodyStrong
                 anchors{
                     bottom: parent.bottom
                     left:parent.left
@@ -297,7 +311,7 @@ Item {
                     RingIcon{
                         id:item_icon_expand
                         rotation: model&&model.isExpand?0:180
-                        iconSource:RingentIcons.ChevronUp
+                        iconSource:RingIcons.ChevronUp
                         iconSize: 15
                         anchors{
                             verticalCenter: parent.verticalCenter
@@ -431,7 +445,7 @@ Item {
                             return model&&model.showEdit ? model.editDelegate : undefined
                         }
                         onStatusChanged: {
-                            if(status === RingLoader.Ready){
+                            if(status === FluLoader.Ready){
                                 item.forceActiveFocus()
                                 item_connection_edit_focus.target = item
                             }
@@ -454,6 +468,7 @@ Item {
             }
         }
     }
+
     Component{
         id:com_panel_item
         Item{
@@ -657,7 +672,7 @@ Item {
                             return model.showEdit ? model.editDelegate : undefined
                         }
                         onStatusChanged: {
-                            if(status === RingLoader.Ready){
+                            if(status === FluLoader.Ready){
                                 item.forceActiveFocus()
                                 item_connection_edit_focus.target = item
                             }
@@ -704,6 +719,7 @@ Item {
             }
         }
     }
+    //窗口的标题栏
     Item {
         id:nav_app_bar
         width: parent.width
@@ -719,7 +735,7 @@ Item {
             spacing: 0
             RingIconButton{
                 id:btn_back
-                iconSource: RingentIcons.ChromeBack
+                iconSource: RingIcons.ChromeBack
                 Layout.leftMargin: 5
                 Layout.alignment: Qt.AlignVCenter
                 disabled:  {
@@ -739,7 +755,7 @@ Item {
                         var nav_stack = loader_content.item.navStack()
                         var nav_stack2 = loader_content.item.navStack2()
                         nav_stack.pop()
-                        if(nav_stack.currentItem.launchMode === RingPageType.SingleInstance){
+                        if(nav_stack.currentItem.launchMode === FluPageType.SingleInstance){
                             var url = nav_stack.currentItem.url
                             var pageIndex = -1
                             for(var i=0;i<nav_stack2.children.length;i++){
@@ -760,7 +776,7 @@ Item {
             }
             RingIconButton{
                 id:btn_menu
-                iconSource: RingentIcons.GlobalNavButton
+                iconSource: RingIcons.GlobalNavButton
                 iconSize: 15
                 Layout.preferredWidth: d.isMinimal ? 30 : 0
                 Layout.preferredHeight: 30
@@ -852,7 +868,7 @@ Item {
                     if(!nav_stack.currentItem){
                         return false
                     }
-                    return RingPageType.SingleInstance === nav_stack.currentItem.launchMode
+                    return FluPageType.SingleInstance === nav_stack.currentItem.launchMode
                 }
             }
             function navStack(){
@@ -1219,14 +1235,14 @@ Item {
     Component{
         id:com_placeholder
         Item{
-            property int launchMode: RingPageType.SingleInstance
+            property int launchMode: FluPageType.SingleInstance
             property string url
         }
     }
     function collapseAll(){
         for(var i=0;i<nav_list.model.length;i++){
             var item = nav_list.model[i]
-            if(item instanceof RingPaneItemExpander){
+            if(item instanceof FluPaneItemExpander){
                 item.isExpand = false
             }
         }
@@ -1269,19 +1285,19 @@ Item {
             if(page){
                 switch(page.launchMode)
                 {
-                case RingPageType.SingleTask:
+                case FluPageType.SingleTask:
                     while(nav_stack.currentItem !== page)
                     {
                         nav_stack.pop()
                         d.stackItems = d.stackItems.slice(0, -1)
                     }
                     return
-                case RingPageType.SingleTop:
+                case FluPageType.SingleTop:
                     if (nav_stack.currentItem.url === url){
                         return
                     }
                     break
-                case RingPageType.Standard:
+                case FluPageType.Standard:
                 default:
                 }
             }
@@ -1301,7 +1317,7 @@ Item {
                 var comp = Qt.createComponent(url)
                 if (comp.status === Component.Ready) {
                     var obj  = comp.createObject(nav_stack,options)
-                    if(obj.launchMode === RingPageType.SingleInstance){
+                    if(obj.launchMode === FluPageType.SingleInstance){
                         nav_stack.push(com_placeholder,options)
                         nav_stack2.children.push(obj)
                         nav_stack2.currentIndex = nav_stack2.count - 1

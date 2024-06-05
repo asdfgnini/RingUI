@@ -13,7 +13,14 @@
         <file>res/image/qrcode_wx.jpg</file>
         <file>res/image/qrcode_zfb.jpg</file>
         <file>qml/main.qml</file>
-        <file>qml/SingleTaskWindow.qml</file>
-        <file>qml/StandardWindow.qml</file>
+        <file>qml/global/GlobalModel.qml</file>
+        <file>qml/global/ItemsFooter.qml</file>
+        <file>qml/global/ItemsOriginal.qml</file>
+        <file>qml/global/qmldir</file>
+        <file>qml/page/T_Buttons.qml</file>
+        <file>qml/Window/MainWindow.qml</file>
+        <file>qml/Window/PageWindow.qml</file>
+        <file>qml/Window/SingleTaskWindow.qml</file>
+        <file>qml/Window/StandardWindow.qml</file>
     </qresource>
 </RCC>

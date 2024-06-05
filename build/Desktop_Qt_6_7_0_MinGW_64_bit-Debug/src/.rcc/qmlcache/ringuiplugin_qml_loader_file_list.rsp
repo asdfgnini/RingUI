@@ -4,6 +4,7 @@ C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc
 C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc/ringuiplugin_raw_qml_0.qrc
 /qt/qml/RingUI/Controls/RingAcrylic.qml
 /qt/qml/RingUI/Controls/RingAppBar.qml
+/qt/qml/RingUI/Controls/RingBadge.qml
 /qt/qml/RingUI/Controls/RingButton.qml
 /qt/qml/RingUI/Controls/RingContentDialog.qml
 /qt/qml/RingUI/Controls/RingControl.qml
@@ -12,6 +13,7 @@ C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc
 /qt/qml/RingUI/Controls/RingEvent.qml
 /qt/qml/RingUI/Controls/RingFilledButton.qml
 /qt/qml/RingUI/Controls/RingFocusRectangle.qml
+/qt/qml/RingUI/Controls/RingFrame.qml
 /qt/qml/RingUI/Controls/RingIcon.qml
 /qt/qml/RingUI/Controls/RingIconButton.qml
 /qt/qml/RingUI/Controls/RingImageButton.qml
@@ -24,11 +26,20 @@ C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc
 /qt/qml/RingUI/Controls/RingMenuSeparator.qml
 /qt/qml/RingUI/Controls/RingNavigationView.qml
 /qt/qml/RingUI/Controls/RingObject.qml
+/qt/qml/RingUI/Controls/RingPage.qml
+/qt/qml/RingUI/Controls/RingPaneItem.qml
+/qt/qml/RingUI/Controls/RingPaneItemEmpty.qml
+/qt/qml/RingUI/Controls/RingPaneItemExpander.qml
+/qt/qml/RingUI/Controls/RingPaneItemHeader.qml
+/qt/qml/RingUI/Controls/RingPaneItemSeparator.qml
 /qt/qml/RingUI/Controls/RingPopup.qml
 /qt/qml/RingUI/Controls/RingProgressRing.qml
 /qt/qml/RingUI/Controls/RingRouter.qml
 /qt/qml/RingUI/Controls/RingScrollBar.qml
+/qt/qml/RingUI/Controls/RingScrollablePage.qml
 /qt/qml/RingUI/Controls/RingShadow.qml
 /qt/qml/RingUI/Controls/RingText.qml
+/qt/qml/RingUI/Controls/RingTextButton.qml
+/qt/qml/RingUI/Controls/RingToggleSwitch.qml
 /qt/qml/RingUI/Controls/RingTooltip.qml
 /qt/qml/RingUI/Controls/RingWindow.qml

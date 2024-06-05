@@ -942,11 +942,11 @@
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQml/6.7.0/QtQml",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/6.7.0",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore/6.7.0/QtCore",
+		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlBuiltins/6.7.0",
+		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlBuiltins/6.7.0/QtQmlBuiltins",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtCore",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/mkspecs/win32-g++",
-		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlBuiltins/6.7.0",
-		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlBuiltins/6.7.0/QtQmlBuiltins",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlBuiltins",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQml",
 		"D:/ruanjian/Qt/6.7.0/mingw_64/include/QtQmlIntegration",
@@ -986,10 +986,6 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/SingleTaskWindow_qml.cpp",
-		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/StandardWindow_qml.cpp",
-		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qml/main_qml.cpp",
-		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qmlcache/example_qmlcache_loader.cpp",
 		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_example_raw_qml_0.cpp",
 		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/.rcc/qrc_qmake_example.cpp",
 		"C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/example/example_qmltyperegistrations.cpp"

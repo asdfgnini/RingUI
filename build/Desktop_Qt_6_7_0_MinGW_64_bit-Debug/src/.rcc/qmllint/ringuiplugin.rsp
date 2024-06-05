@@ -9,6 +9,7 @@ C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc
 C:/Users/22231/Desktop/RingUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/src/.rcc/ringuiplugin_raw_qml_0.qrc
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingAcrylic.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingAppBar.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingBadge.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingButton.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingContentDialog.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingControl.qml
@@ -17,6 +18,7 @@ C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingDivider.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingEvent.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingFilledButton.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingFocusRectangle.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingFrame.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingIcon.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingIconButton.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingImageButton.qml
@@ -29,11 +31,20 @@ C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingMenuItem.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingMenuSeparator.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingNavigationView.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingObject.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPage.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPaneItem.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPaneItemEmpty.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPaneItemExpander.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPaneItemHeader.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPaneItemSeparator.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingPopup.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingProgressRing.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingRouter.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingScrollBar.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingScrollablePage.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingShadow.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingText.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingTextButton.qml
+C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingToggleSwitch.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingTooltip.qml
 C:/Users/22231/Desktop/RingUI/src/QML/imports/Controls/RingWindow.qml

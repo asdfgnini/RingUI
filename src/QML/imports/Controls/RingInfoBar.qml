@@ -55,7 +55,7 @@ RingObject {
                     NumberAnimation {
                         properties: "y"
                         easing.type: Easing.OutCubic
-                        duration: FluTheme.animationEnabled ? 333 : 0
+                        duration: RingTheme.animationEnabled ? 333 : 0
                     }
                 }
                 onChildrenChanged: if(children.length === 0)  destroy();
@@ -98,7 +98,7 @@ RingObject {
                     scale: item ? 1 : 0;
                     asynchronous: true
                     Behavior on scale {
-                        enabled: FluTheme.animationEnabled
+                        enabled: RingTheme.animationEnabled
                         NumberAnimation {
                             easing.type: Easing.OutCubic
                             duration: 167
@@ -112,7 +112,7 @@ RingObject {
             width:  rowlayout.width  + (btn_close.visible ? 30 : 48);
             height: rowlayout.height + 20;
             color: {
-                if(FluTheme.dark){
+                if(RingTheme.dark){
                     switch(_super.type){
                     case mcontrol.const_success: return Qt.rgba(57/255,61/255,27/255,1);
                     case mcontrol.const_warning: return Qt.rgba(67/255,53/255,25/255,1);
@@ -136,7 +136,7 @@ RingObject {
             radius: 4
             border.width: 1
             border.color: {
-                if(FluTheme.dark){
+                if(RingTheme.dark){
                     switch(_super.type){
                     case mcontrol.const_success: return Qt.rgba(56/255,61/255,27/255,1);
                     case mcontrol.const_warning: return Qt.rgba(66/255,53/255,25/255,1);
@@ -162,20 +162,20 @@ RingObject {
                 RingIcon{
                     iconSource:{
                         switch(_super.type){
-                        case mcontrol.const_success: return FluentIcons.CompletedSolid;
-                        case mcontrol.const_warning: return FluentIcons.InfoSolid;
-                        case mcontrol.const_info:    return FluentIcons.InfoSolid;
-                        case mcontrol.const_error:   return FluentIcons.StatusErrorFull;
-                        }FluentIcons.StatusErrorFull
-                        return FluentIcons.FA_info_circle
+                        case mcontrol.const_success: return RingIcons.CompletedSolid;
+                        case mcontrol.const_warning: return RingIcons.InfoSolid;
+                        case mcontrol.const_info:    return RingIcons.InfoSolid;
+                        case mcontrol.const_error:   return RingIcons.StatusErrorFull;
+                        }RingIcons.StatusErrorFull
+                        return RingIcons.FA_info_circle
                     }
                     iconSize:20
                     iconColor: {
-                        if(FluTheme.dark){
+                        if(RingTheme.dark){
                             switch(_super.type){
                             case mcontrol.const_success: return Qt.rgba(108/255,203/255,95/255,1);
                             case mcontrol.const_warning: return Qt.rgba(252/255,225/255,0/255,1);
-                            case mcontrol.const_info:    return FluTheme.primaryColor;
+                            case mcontrol.const_info:    return RingTheme.primaryColor;
                             case mcontrol.const_error:   return Qt.rgba(255/255,153/255,164/255,1);
                             }
                             return "#FFFFFF"
@@ -202,23 +202,23 @@ RingObject {
                         text: _super.moremsg
                         visible: _super.moremsg
                         wrapMode : Text.WrapAnywhere
-                        textColor: FluColors.Grey120
+                        textColor: RingColors.Grey120
                         width: Math.min(implicitWidth,mcontrol.maxWidth)
                     }
                 }
 
                 RingIconButton{
                     id:btn_close
-                    iconSource: FluentIcons.ChromeClose
+                    iconSource: RingIcons.ChromeClose
                     iconSize: 10
                     y:5
                     visible: _super.duration<=0
                     iconColor: {
-                        if(FluTheme.dark){
+                        if(RingTheme.dark){
                             switch(_super.type){
                             case mcontrol.const_success: return Qt.rgba(108/255,203/255,95/255,1);
                             case mcontrol.const_warning: return Qt.rgba(252/255,225/255,0/255,1);
-                            case mcontrol.const_info:    return FluTheme.primaryColor;
+                            case mcontrol.const_info:    return RingTheme.primaryColor;
                             case mcontrol.const_error:   return Qt.rgba(255/255,153/255,164/255,1);
                             }
                             return "#FFFFFF"

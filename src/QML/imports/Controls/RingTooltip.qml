@@ -5,6 +5,8 @@ import RingUI
 
 T.ToolTip {
     id: control
+    //implicitWidth为控件的隐式宽度，控件的宽度可以根据内容自适应变化
+    //width是显示指定控件的宽度，控件的宽度固定不变，同时width的优先级要高于implicitWidth
     x: parent ? (parent.width - implicitWidth) / 2 : 0
     y: -implicitHeight - 3
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,
