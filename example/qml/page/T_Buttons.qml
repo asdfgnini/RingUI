@@ -7,7 +7,6 @@ import RingUI 1.0
 
 RingScrollablePage
 {
-
     title: qsTr("Buttons")
 
     RingText{

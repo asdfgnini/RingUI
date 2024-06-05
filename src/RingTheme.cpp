@@ -25,7 +25,7 @@ RingTheme::RingTheme(QObject* parent):QObject{parent}
     //判断系统配色是不是暗
     _systemDark = systemDark();
     //桌面背景图片
-    _desktopImagePath = "";
+    _desktopImagePath = "C:\\Users\\22231\\Desktop\\RingUI\\example\\res\\image\\flower.jpg";
     //不启用毛玻璃背景
     _blurBehindWindowEnabled = false;
     //在该实例化对象上安装事件过滤器

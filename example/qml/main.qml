@@ -1,8 +1,7 @@
 import "./Window"
 
 
+MainWindow02{
 
-
-MainWindow{
 
 }

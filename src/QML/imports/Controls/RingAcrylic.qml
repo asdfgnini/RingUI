@@ -2,6 +2,8 @@ import QtQuick
 import Qt5Compat.GraphicalEffects
 import RingUI
 
+
+
 Item {
     id: control
     property color tintColor: Qt.rgba(1, 1, 1, 1)

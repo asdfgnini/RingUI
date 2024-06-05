@@ -22,5 +22,8 @@
         <file>qml/Window/PageWindow.qml</file>
         <file>qml/Window/SingleTaskWindow.qml</file>
         <file>qml/Window/StandardWindow.qml</file>
+        <file>qml/Window/MainWindow02.qml</file>
+        <file>res/image/flower.jpg</file>
+        <file>qml/global/ContentModel.qml</file>
     </qresource>
 </RCC>

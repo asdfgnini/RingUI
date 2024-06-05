@@ -52,6 +52,7 @@
     <file alias="Image/btn_min_hovered.png">C:/Users/22231/Desktop/RingUI/src/QML/imports/Image/btn_min_hovered.png</file>
     <file alias="Image/btn_min_normal.png">C:/Users/22231/Desktop/RingUI/src/QML/imports/Image/btn_min_normal.png</file>
     <file alias="Image/btn_min_pushed.png">C:/Users/22231/Desktop/RingUI/src/QML/imports/Image/btn_min_pushed.png</file>
+    <file alias="Image/flower.jpg">C:/Users/22231/Desktop/RingUI/src/QML/imports/Image/flower.jpg</file>
     <file alias="Image/noise.png">C:/Users/22231/Desktop/RingUI/src/QML/imports/Image/noise.png</file>
   </qresource>
 </RCC>
